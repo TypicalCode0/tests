@@ -1,4 +1,4 @@
-import ../sum
+import sum
 
 
 def test_sum(a, b):
