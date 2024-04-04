@@ -1,4 +1,4 @@
-import * from sum.py
+from sum.py import * 
 
 def test_sum(a, b):
   assert sum(a,b)==a+b
