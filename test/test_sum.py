@@ -12,6 +12,6 @@ def test_mul(a, b):
 
 def test_pow(a, b):
   assert pow(a, b) == a**b
-:
+
 def test_divide(a, b):
   assert divide(a, b) == a / b
