@@ -1,5 +1,8 @@
 import sum
-
+import minus
+import mul
+import pow
+import divide
 
 def test_sum(a, b):
   assert sum(a,b)==a+b
