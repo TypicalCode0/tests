@@ -1,16 +1,56 @@
 from src.operations import * 
 
-def test_sum(a, b):
-  assert sum(a,b)==a+b
+@pytest.mark.parametrize(
+    ('a', 'b', 'result'),
+    [
+        (10, 3, 13),
+        (-1, 5, 4),
+        (0, 0, 0),
+    ],
+)
+def test_sum(a, b, result):
+  assert sum(a,b)==result
 
-def test_minus(a, b):
-  assert minus(a,b)==a-b
+@pytest.mark.parametrize(
+    ('a', 'b', 'result'),
+    [
+        (10, 3, 7),
+        (-1, 5, -6),
+        (0, 0, 0),
+    ],
+)
+def test_minus(a, b, result):
+  assert minus(a,b)==result
 
-def test_mul(a, b):
-  assert mul(a,b) == a*b
+@pytest.mark.parametrize(
+    ('a', 'b', 'result'),
+    [
+        (10, 3, 30),
+        (-1, 5, -5),
+        (0, 0, 0),
+    ],
+)
+def test_mul(a, b, result):
+  assert mul(a,b) == result
 
-def test_pow(a, b):
-  assert pow(a, b) == a**b
+@pytest.mark.parametrize(
+    ('a', 'b', 'result'),
+    [
+        (10, 3, 1000),
+        (1, 0, 1),
+        (3, 2, 9),
+    ],
+)
+def test_pow(a, b, result):
+  assert pow(a, b) == result
 
-def test_divide(a, b):
-  assert divide(a, b) == a / b
+@pytest.mark.parametrize(
+    ('a', 'b', 'result'),
+    [
+        (6, 3, 2.0),
+        (-1, 5, -0.2),
+        (0, 5, 0.0),
+    ],
+)
+def test_divide(a, b, result):
+  assert divide(a, b) == result
