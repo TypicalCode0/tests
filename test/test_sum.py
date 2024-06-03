@@ -1,4 +1,5 @@
-from src.operations import * 
+"""d"""
+from src.operations import sm, minus, mul, pw, divide
 
 
 def test_sm():
