@@ -9,8 +9,8 @@ def test_minus():
 def test_mul():
   assert mul(5,5) == 25
 
-def test_pow():
-  assert pow(0, 10) == 0
+def test_pw():
+  assert pw(0, 10) == 0
 
 def test_divide():
   assert divide(10, 2) == 5
