@@ -1,4 +1,7 @@
-def sum(a: int, b: int) -> int:
+"""lol"""
+
+
+def sm(a: int, b: int) -> int:
     '''a + b'''
     return a + b
 
