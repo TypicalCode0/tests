@@ -13,7 +13,7 @@ def minus(a: int, b: int) -> int:
     '''a - n'''
     return a - b
 
-def pow(a: int, b: int) -> int:
+def pw(a: int, b: int) -> int:
     '''a**b'''
     return a**b
 
