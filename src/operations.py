@@ -1,14 +1,19 @@
 def sum(a, b):
-  return a + b
+    '''a + b'''
+    return a + b
 
 def mul(a, b):
-  return a * b
-  
+    '''a * b'''
+    return a * b
+
 def minus(a, b):
-  return a - b
+    '''a - n'''
+    return a - b
 
 def pow(a, b):
-  return a**b
+    '''a**b'''
+    return a**b
 
 def divide(a, b):
-  return a / b
+    '''a / b'''
+    return a / b
