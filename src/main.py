@@ -1,5 +1,5 @@
 """asd"""
-from operations import sm, pw, mul, minus, divide
+from src.operations import sm, pw, mul, minus, divide
 
 
 while True:
@@ -8,7 +8,7 @@ while True:
     cmd = input()
     if cmd == "exit":
         break
-    elif cmd == "enter":
+    if cmd == "enter":
         s = input("Введите выражение через пробел -> ").split()
         print("Результат: ", sep="", end="")
         if s[1] == "+":
