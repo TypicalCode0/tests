@@ -21,3 +21,5 @@ while True:
             print(divide(int(s[0]), int(s[2])))
         elif s[1] == "**":
             print(pw(int(s[0]), int(s[2])))
+        elif s[1] == "!":
+            print(factorial(int(s[0])))
