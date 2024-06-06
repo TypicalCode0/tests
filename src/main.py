@@ -1,5 +1,5 @@
 """asd"""
-from src.operations import sm, pw, mul, minus, divide
+from src.operations import sm, pw, mul, minus, divide, factorial
 
 
 while True:
