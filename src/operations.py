@@ -20,3 +20,10 @@ def pw(a: int, b: int) -> int:
 def divide(a: int, b: int) -> int:
     '''a / b'''
     return a // b
+
+def factorial(a: int) -> int:
+    '''a!'''
+    res = 1
+    for i in range(2, a + 1):
+        res *= 2
+    return res
