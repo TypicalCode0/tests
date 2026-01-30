@@ -1,5 +1,5 @@
 """d"""
-from src.operations import sm, minus, mul, pw, divide
+from src.operations import sm, minus, mul, pw, divide, factorial
 
 
 def test_sm():
@@ -41,3 +41,11 @@ def test_divide():
     assert divide(1, 2) == 0
     assert divide(15, 4) == 3
     assert divide(-5, -5) == 1
+
+def test_factorial():
+    '''d'''
+    assert factorial(5) == 120
+    assert factorial(0) == 1
+    assert factorial(1) == 1
+    assert factorial(7) == 5040
+    assert factorial(9) == 362880
